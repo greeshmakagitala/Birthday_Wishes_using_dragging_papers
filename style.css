@@ -1,0 +1,21 @@
+.paper {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-image: url("background1.jpg");
+  cursor: move;
+  position: absolute;
+}
+
+.paper img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  background-image: url("background2.jpg");
+}
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
